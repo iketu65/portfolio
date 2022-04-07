@@ -152,3 +152,8 @@ export const CarouselButtonDot = styled.div`
   width: 3px;
   height: 3px;
 `
+
+export const ImgProfile = styled.img`
+  border-radius: 10px;
+  width: 35rem;
+`
