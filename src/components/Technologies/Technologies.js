@@ -1,5 +1,5 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import { DiReact, DiNodejsSmall, DiMongodb } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -15,32 +15,32 @@ const Technologies = () =>  (
     <List>
       {/* ** แก้ด้วย4 ** */}
       <ListItem>
-        <DiReact size='3rem'/>
+        <DiReact size='4rem'/>
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            React.js
+            React.js, JavaScript, HTML and CSS
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiFirebase size='3rem'/>
+        <DiNodejsSmall size='4rem'/>
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Node.js and Databases
+            Node.js and Express.js
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiZend size='3rem'/>
+        <DiMongodb size='4rem'/>
         <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
+          <ListTitle>Database</ListTitle>
           <ListParagraph>
             Experience with <br />
-            tools like Figma.
+            MongoDB
           </ListParagraph>
         </ListContainer>
       </ListItem>
