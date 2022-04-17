@@ -50,7 +50,7 @@ const Timeline = () => {
       </div>
       <SectionText style={{textAlign: 'justify'}}>
         Hello! I am a software developer certified by Generation's junior software developer intensive boot camp. 
-        I have bachelor's degree in engineering from Chulalongkorn University and master's degree in finance from THe University of Surrey, UK. 
+        I have bachelor's degree in engineering from Chulalongkorn University and master's degree in finance from The University of Surrey, UK. 
         I was an investment banker and have experiences in banking, finance and real estate development. 
         My passion is to explore the world of software development and bringing new things to the world!
       </SectionText>
