@@ -156,4 +156,7 @@ export const CarouselButtonDot = styled.div`
 export const ImgProfile = styled.img`
   border-radius: 10px;
   width: 35rem;
+  @media ${props => props.theme.breakpoints.sm} {
+    width: 100%;
+  }
 `

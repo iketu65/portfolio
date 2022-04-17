@@ -8,15 +8,19 @@ const Hero = () => (
   <Section row nopadding>
     <LeftSection>
       <SectionTitle main center>
+        Hello World! <br />
         Welcome To <br />
-        iKE's Portfolio
+        Phakorn <br />
+        Praditthamrong's <br />
+        Portfolio!
       </SectionTitle>
       {/* ** แก้ด้วย1 ** */}
       <SectionText> 
-      The purpose of JavaScript Mastery is to help aspiring and established developers to take their development skills to the next level and build awesome apps.
+      I'm a software developer with passions for learning and innovating.
       </SectionText>
       {/* ** แก้ด้วย2 ** */}
-      <Button onClick={() => window.location = 'https://www.javascript.com/'}>Learn More</Button>
+      {/* <Button onClick={() => window.location = 'https://www.javascript.com/'}>Learn More</Button> */}
+      <Button onClick={() => window.location = 'mailto: phakorn.praditthamrong@gmail.com'}>Contact Me</Button>
     </LeftSection>
   </Section>
 );

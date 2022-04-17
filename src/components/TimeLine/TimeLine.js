@@ -48,8 +48,11 @@ const Timeline = () => {
       <div>
         <ImgProfile src={'/images/ike.jpeg'} />
       </div>
-      <SectionText>
-        The purpose of JavaScript Mastery is to help aspiring and established developers to take their development skills to the next level and build awesome apps.
+      <SectionText style={{textAlign: 'justify'}}>
+        Hello! I am a software developer certified by Generation's junior software developer intensive boot camp. 
+        I have bachelor's degree in engineering from Chulalongkorn University and master's degree in finance from THe University of Surrey, UK. 
+        I was an investment banker and have experiences in banking, finance and real estate development. 
+        My passion is to explore the world of software development and bringing new things to the world!
       </SectionText>
       {/* <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         ** แก้ด้วย5 **
