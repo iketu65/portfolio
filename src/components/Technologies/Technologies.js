@@ -40,7 +40,7 @@ const Technologies = () =>  (
           <ListTitle>Database</ListTitle>
           <ListParagraph>
             Experience with <br />
-            MongoDB
+            MongoDB and SQL
           </ListParagraph>
         </ListContainer>
       </ListItem>
