@@ -22,8 +22,8 @@ export const projects = [
     description: "Using React.js and JavaScript to create web application that can be used to record and view your activities, the data will be stored and fetched from MongoDB using API created by Node.js and Express.js",
     image: '/images/activity-tracker.jpeg',
     tags: ['React.js', 'JavaScript', 'Node.js', 'Express.js', 'MongoDB'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    source: 'https://github.com/iketu65/activity-tracker',
+    visit: 'https://github.com/iketu65/activity-tracker',
     id: 2,
   },
   {
